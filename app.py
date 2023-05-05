@@ -1,6 +1,6 @@
 from flask import Flask
 import felix
-
+import menco
 
 app = Flask(__name__)
 
@@ -11,3 +11,7 @@ def hello_world():
 @app.route("/vanfelix")
 def hello_world2():
     return felix.ditisvanfelix()
+
+@app.route("/tijmenco")
+def hello_world2():
+    return menco.shady()
