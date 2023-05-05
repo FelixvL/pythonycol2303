@@ -6,3 +6,4 @@ def shady():
     response = requests.get('https://source.unsplash.com/1600x900/?cats')
     img = Image.open(BytesIO(response.content))
     img.show()
+    return "eyo"
