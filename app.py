@@ -13,5 +13,5 @@ def hello_world2():
     return felix.ditisvanfelix()
 
 @app.route("/tijmenco")
-def hello_world2():
+def hello_world3():
     return menco.shady()
